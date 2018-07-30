@@ -1,0 +1,39 @@
+.parent{
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+}
+.child{
+  border:2px solid #ddd;
+  padding:2%;
+  margin:2%;
+  box-shadow:3px 3px 3px #000;
+  text-align: center;
+}
+
+img{
+  width: 200px;
+  height:;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+a{
+  border: 2px;
+  color: orange
+}
+.leftchild{
+  width: 30%;
+  border: 2px solid #ddd;
+  padding: 2%;
+  margin:2%
+  box-shadow:3px 3px 3px #000;
+  text-align: center;
+}
+.rightchild{
+  width: 70%;
+  border: 2px solid #ddd;
+  padding: 2%;
+  margin:2%
+  box-shadow:3px 3px 3px #000;
+  text-align: center;
+}
