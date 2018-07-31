@@ -12,8 +12,8 @@
 }
 
 img{
-  width: 200px;
-  height:;
+  width: 20%;
+  height:20%;
   border-radius: 50%;
   border: 2px solid #ddd;
 }
@@ -26,7 +26,7 @@ img{
   padding: 2%;
 }
 .leftchild{
-  width: 30%;
+  width: 92%;
   border: 2px solid #000;
   padding: 3px;
   margin:2%;
@@ -35,7 +35,7 @@ img{
 
 }
 .rightchild{
-  width: 65%;
+  width: 92%;
   border: 2px solid #000;
   padding:3px;
   margin:2%;
@@ -46,49 +46,144 @@ mail{
   text-decoration: none;
   font-size: 20%;
 }
-@media only screen and(min-width:320px) and (max:width:480px)
-{
+@media only screen and (min-width:320px) and (max-width:480px){
   .parent{
     display: flex;
     flex-direction:column;
     justify-content:center;
   }
-  .child{
-    border:2px solid #ddd;
-    padding:2%;
-    margin:2%;
-    box-shadow:3px 3px 3px #000;
-    text-align: center;
-  }
 
+
+  img{
+    width: 20%;
+    height:20%;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+  }
+  .a{
+    display: red;
+    text-align: center;
+    text-decoration: none;
+    background: #000;
+    color: orange;
+    padding: 2%;
+  }
+  .leftchild{
+    width: 92%;
+    border: 2px solid #000;
+    padding: 3px;
+    margin:2%;
+    text-align: center;
+
+
+  }
+  .rightchild{
+    width: 92%;
+    border: 2px solid #000;
+    padding:3px;
+    margin:2%;
+    text-align: center;
+
+  }
+  mail{
+    text-decoration: none;
+    font-size: 20%;
+  }
 
 }
-@media only screen and(min-width:481px) and (max:width:768px){
+@media only screen and (min-width:481px) and (max-width:768px){
   .parent{
     display: flex;
-    flex-direction:column;
+    flex-direction:row;
     justify-content:center;
   }
-  .child{
-    border:2px solid #ddd;
-    padding:2%;
-    margin:2%;
-    box-shadow:3px 3px 3px #000;
+
+
+  img{
+    width: 20%;
+    height:20%;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+  }
+  .a{
+    display: red;
     text-align: center;
+    text-decoration: none;
+    background: #000;
+    color: orange;
+    padding: 2%;
+  }
+  .leftchild{
+    width: 50%;
+    border: 2px solid #000;
+    padding: 3px;
+    margin:2%;
+    text-align: center;
+
+
+  }
+  .rightchild{
+    width: 50%;
+    border: 2px solid #000;
+    padding:3px;
+    margin:2%;
+    text-align: center;
+
+  }
+  mail{
+    text-decoration: none;
+    font-size: 20%;
+  }
+  body{
+    background-color: teal;
   }
 
 }
-@media only screen and(min-width:769px) and (max:width:1024px){
+@media only screen and (min-width:769px) and (max-width:1024px){
   .parent{
     display: flex;
-    flex-direction:column;
+    flex-direction:row;
     justify-content:center;
   }
-  .child{
-    border:2px solid #ddd;
-    padding:2%;
-    margin:2%;
-    box-shadow:3px 3px 3px #000;
-    text-align: center;
+
+
+  img{
+    width: 20%;
+    height:20%;
+    border-radius: 50%;
+    border: 2px solid #ddd;
   }
+  .a{
+    display: red;
+    text-align: center;
+    text-decoration: none;
+    background: #000;
+    color: orange;
+    padding: 2%;
+  }
+  .leftchild{
+    width: 40%;
+    border: 2px solid #000;
+    padding: 3px;
+    margin:2%;
+    text-align: center;
+
+
+  }
+  .rightchild{
+    width: 60%;
+    border: 2px solid #000;
+    padding:3px;
+    margin:2%;
+    text-align: center;
+
+  }
+  mail{
+    text-decoration: none;
+    font-size: 20%;
+  }
+  body{
+    background-color:maroon;
+  }
+
 }
