@@ -46,9 +46,7 @@ mail{
   text-decoration: none;
   font-size: 20%;
 }
-body{
-  background-color:#FE2EC8;
-}
+
 
 @media only screen and (min-width:320px) and (max-width:480px){
   .parent{
@@ -93,9 +91,7 @@ body{
     text-decoration: none;
     font-size: 20%;
   }
-  body{
-    background-color:#00FF40;
-  }
+
 }
 @media only screen and (min-width:481px) and (max-width:768px){
   .parent{
@@ -140,9 +136,7 @@ body{
     text-decoration: none;
     font-size: 20%;
   }
-  body{
-    background-color: teal;
-  }
+
 
 }
 @media only screen and (min-width:769px) and (max-width:1024px){
@@ -188,8 +182,6 @@ body{
     text-decoration: none;
     font-size: 20%;
   }
-  body{
-    background-color:maroon;
-  }
+
 
 }
