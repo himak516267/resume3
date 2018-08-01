@@ -2,6 +2,27 @@
   "career":{
     "info":"Career Objective in Resume is the most important part of resume which describe your motive of professional career and Job. So it should be originally written by your own words that what you want for your future growth and what is the objective of your career."
 
+  },
+"education":[
+  {
+    "pg":"mca",
+    "institute":"sdth",
+    "data":["2016-2019","75"]
+  },
+  {
+    "ssc":"S.S.C",
+    "institute":"vivekandha Hschool",
+    "data":["2009-2010","75"]
+  },
+  {
+    "inter":"inter",
+    "institute":"rrgr college",
+    "data":["2016-2019","60"]
+  },
+  {
+    "degree":"Bsc(computers)",
+    "institute":"rrge degree",
+    "data":["2013-2016","62"]
   }
-
+]
 }
