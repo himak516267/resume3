@@ -113,7 +113,7 @@ mail{
     border-radius: 50%;
     border: 2px solid #ddd;
   }
-  a{
+  .a{
     display: red;
     text-align: center;
     text-decoration: none;

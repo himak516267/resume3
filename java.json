@@ -37,7 +37,18 @@
   },
   {
     "title":"operating system",
-    "set":["winwods 10","home","pro"]
+    "set":["winwods ","linux","khali"]
   }
+],
+"achievement":[
+  {
+    "achievedData":"Got Frist prize in shortfilem"
+    },
+  {
+    "achievedData":"Got Frist prize in adzup"
+  },
+  {
+  "achievedData":"Got Frist prize in running"
+}
 ]
 }

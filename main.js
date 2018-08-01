@@ -25,11 +25,12 @@
       })
     }
 var fetchedData=loadJSON("java.json");
-fetchedData.then(java=>{
-  console.log(java);
-  career(java.career);
-  education(java.education);
-  skills(java.skills);
+fetchedData.then(data=>{
+  console.log(data);
+  career(data.career);
+  education(data.education);
+  skills(data.skills);
+  achievement(data.achievement);
 })
 var child2=document.querySelector("#child2");
 function career(car){
@@ -80,5 +81,25 @@ function skills(skills)
       list.appendChild(listItem);
 
     }
+  }
+}
+//achievements
+function achievement(achievement)
+{
+  var heading=document.createElement("h2");
+  heading.textContent="technical skills ";
+  child2.appendChild(heading);
+  var hLine=document.createElement("hr");
+  heading.appendChild(hLine);
+  var list=document.createElement("li");
+  child2.appendChild(list);
+  var i=0;
+  var listItem="";
+  while (i<achievement.length) {
+    listItem=document.createElement("li");
+    listItem.textContent=achievement[i].achievedData;
+    list.appendChild(listItem);
+    i++;
+
   }
 }
