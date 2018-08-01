@@ -18,6 +18,9 @@ img{
   border-radius: 50%;
   border: 2px solid #ddd;
 }
+h4{
+  text-align: center;
+}
 .a{
   display: red;
   text-align: center;
@@ -110,7 +113,7 @@ mail{
     border-radius: 50%;
     border: 2px solid #ddd;
   }
-  .a{
+  a{
     display: red;
     text-align: center;
     text-decoration: none;
