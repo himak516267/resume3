@@ -13,10 +13,10 @@
     //  }
     //  loadJSON("data.jsan",function)
     function loadJSON(file){
-      return new Promise((resolove,request)=>{
-        return fetch(file).then(responce=>{
-          if (responce.ok) {
-            resolove(responce.json());
+      return new Promise((resolve,request)=>{
+        return fetch(file).then(response=>{
+          if (response.ok) {
+            resolve(response.json());
           }
             else{
               reject(new error("error"));
